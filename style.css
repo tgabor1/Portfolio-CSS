@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.head {
+    font-size: 11px;
+
+}
+
+/* Fin du CSS sur le header */
+
+
+
+
+
+
+.dev {
+    text-align: center;
+}
+
+.dev h1 {
+    font-size: 36px;
+    text-decoration: underline;
+    color: rgb(135, 187, 52);
+}
+
+.dev h2 {
+    font-size: 20px;
+}
+
+.dev img{
+    height: 20px;
+    width: 20px;
+}
