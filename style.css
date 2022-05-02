@@ -1,16 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
 header {
     display: flex;
     justify-content: space-between;
+    background-color: goldenrod;
+    padding-top: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 8%;
+    position: fixed;
+    top: 0%;
+    width: 100%;
 }
 
 .name {
     font-size: 30px;
     font-weight: 1000;
+    color: rgb(0, 0, 0);
 }
 
-.head {
-    font-size: 11px;
-
+#button {
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+    margin-top: 8px;
+    background-color: rgb(100, 100, 100);
 }
 
 /* Fin du CSS sur le header */
@@ -20,21 +43,70 @@ header {
 
 
 
-.dev {
-    text-align: center;
+main {
+    background-image: url(images/gold.jpg);
+    background-size: cover;
 }
 
 .dev h1 {
-    font-size: 36px;
-    text-decoration: underline;
-    color: rgb(135, 187, 52);
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .dev h2 {
     font-size: 20px;
+    text-align: center;
+    color: goldenrod;
 }
 
-.dev img{
-    height: 20px;
-    width: 20px;
+h1 {
+    text-align: center;
+    color: rgb(112, 41, 0);
+    text-decoration: underline;
+    margin-top: 30%;
+    font-size: 25px;
+    padding-top: 5%;
+    margin-bottom: 75px;
 }
+
+.port img {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.propos {
+    text-align: center;
+}
+
+.propos p {
+    margin-bottom: 20px;
+    color: goldenrod;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: larger;
+}
+
+/* Fin du CSS sur le main */
+
+
+
+
+
+
+footer {
+    background-color: black;
+    height: 50px;
+    padding-top: 12px;
+}
+
+footer img {
+    height: 25px;
+    width: 25px;
+    margin-left: 49%;
+}
+
+/* Fin du CSS sur le footer */
