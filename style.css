@@ -12,7 +12,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: goldenrod;
+    background-color: rgb(10, 126, 0);
     padding-top: 15px;
     padding-left: 2%;
     padding-right: 2%;
@@ -56,7 +56,7 @@ main {
 .dev h2 {
     font-size: 20px;
     text-align: center;
-    color: goldenrod;
+    color: rgb(10, 126, 0);
 }
 
 h1 {
