@@ -5,7 +5,7 @@ let button = document.getElementById("button");
 button.addEventListener("click", affichageMenu);
 
 function affichageMenu() {
-
+    menupart2.style.display = "none";
 }
 
 
@@ -20,3 +20,14 @@ light.addEventListener("click", activerLightMode);
 function activerLightMode() {
 
 }
+
+
+
+
+
+
+
+
+
+
+// Reste à faire les a:hover et le light mode

@@ -7,7 +7,7 @@
 
 
 
-/* CSS sur le header */
+/* Header */
 
 header {
     display: flex;
@@ -42,7 +42,7 @@ header {
 
 
 
-/* CSS sur le main */
+/* Main */
 
 main {
     background-color: rgb(26, 26, 26);
@@ -99,7 +99,7 @@ h1 {
 
 
 
-/* CSS du slider */
+/* Main (slider) */
 
 .slider {
     overflow-x: scroll;
@@ -144,7 +144,7 @@ h1 {
 
 
 
-/* CSS sur le footer */
+/* Footer */
 
 footer {
     background-color: rgb(10, 126, 0);
@@ -156,4 +156,24 @@ footer img {
     height: 30px;
     width: 30px;
     margin-left: 47%;
+}
+
+
+
+
+/* Menu du bouton */
+
+.menupart2 {
+    display: none;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5%;
+    right: 13px;
+    top: 22px;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    position: fixed;
 }
