@@ -29,7 +29,7 @@ header {
     margin-top: 8px;
 }
 
-header img{
+header img {
     width: 30px;
     height: 30px;
     margin-left: 70px;
@@ -96,8 +96,8 @@ h1 {
     font-size: larger;
 }
 
-.comp{
-    padding-left: 27px;
+.comp {
+    text-align: center;
 }
 
 .comp img {
@@ -161,12 +161,12 @@ footer {
     background-color: rgb(10, 126, 0);
     height: 50px;
     padding-top: 10px;
+    text-align: center;
 }
 
 footer img {
     height: 30px;
     width: 30px;
-    margin-left: 47%;
 }
 
 
