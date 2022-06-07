@@ -36,17 +36,20 @@ header img {
     margin-top: 13px;
 }
 
-#light{
-    background-image: url("images/lightmode.png");
-    width: 10px;
-    height: 10px;
-}
-
 #button {
     width: 50px;
     height: 30px;
     font-size: medium;
     background-color: rgb(16, 133, 201);
+    border: solid black 2px;
+    border-radius: 25%;
+    margin-top: 13px;
+}
+
+#lightmode {
+    width: 50px;
+    height: 30px;
+    font-size: medium;
     border: solid black 2px;
     border-radius: 25%;
     margin-top: 13px;
