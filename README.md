@@ -1,3 +1,3 @@
 # Portfolio
 
-Un portfolio comprenant du HTML, du CSS et du Javascript, notamment un slider, des boutons JS, des animations, et plusieurs autres fonctions diverses
+Un portfolio en HTML/CSS comprenant entre autres, un slider, un light mode, des animations, et plusieurs autres fonctions diverses
